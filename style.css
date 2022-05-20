@@ -1,0 +1,85 @@
+/* The navbar container */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+/* Navbar links */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 7px 8px;
+    text-decoration: none;
+    font-family: Verdana;
+}
+
+/* Links - change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 15px;
+}
+
+.topnav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.topnav b {
+    float: right;
+    padding: 7px 8px;
+    text-align: right;
+    color: white;
+    font-family: Verdana;
+}
+
+.header {
+    background-color: gray;
+    text-align: center;
+    /* padding: 40px; */
+    height: 100px;
+    padding-top: 20px;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 0px 0px 10px 10px; /* top-left, top-right, bottom-right, bottom-left */
+}
+
+.header h1 {
+    color: white;
+    font-family: Verdana;
+}
+
+.block {
+    border: 1px solid black;
+    width: 35%;
+    margin: 15%;
+    margin-top: 25px;
+    border-radius: 10px;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.block h1 {
+    font-size: larger;
+}
+
+.block ul {
+    text-align: left;
+}
+
+.dropdown {
+    border: 1px solid black;
+    width: 70%;
+    margin: 15%;
+    margin-top: 25px;
+    border-radius: 10px;
+    text-align: left;
+    font-family: Verdana;  
+    font-size: 30px;  
+}
