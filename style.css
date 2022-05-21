@@ -94,7 +94,8 @@
     border: 1px solid #4c4c4c;
     width: 70%;
     margin: 15%;
-    margin-top: 25px;
+    margin-top: 50px;
+    margin-bottom:0px;
     border-radius: 10px;
     text-align: center;
     font-family: Verdana;  
@@ -114,4 +115,12 @@
     text-align: left;
     font-family: Verdana;  
     font-size: 30px;     
+}
+
+.dropdown2 h1 {
+    font-size: 25px;
+}
+
+.dropdown2 p {
+    font-size: 15px;
 }
