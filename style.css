@@ -1,7 +1,20 @@
 @font-face {
     font-family: ThreeK;
-    src: url('3270NerdFont-Regular.ttf'); 
+    src: url(3270NerdFont-Regular.ttf); 
 } 
+
+body {
+    background-image: url(Pictures/view.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    /* background-size: cover; */
+}
+
+a {
+    color: #B0B0FF;
+}
 
 /* The navbar container */
 .topnav {
@@ -42,7 +55,7 @@
     padding: 7px 8px;
     text-align: right;
     color: white;
-    font-family: Verdana;
+    font-family: ThreeK;
 }
 
 
@@ -61,18 +74,25 @@
 
 .header h1 {
     color: white;
-    font-family: Verdana;
+    font-family: ThreeK;
 }
 
 
 
 /* Home */
+.standalone {
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 10px 10px 0px 0px; /* top-left, top-right, bottom-right, bottom-left */
+    font-family: ThreeK;
+    text-align: center;
+}
 
 .block {
     border: 1px solid #d6efdb;
     border-radius: 8px;
     text-align: center;
-    font-family: Verdana;
+    font-family: ThreeK;
     color: white;
     background-color: #333338;
     /* float: right; */
@@ -112,7 +132,7 @@ details > summary {
     background-color: #777783;
     border-radius: 10px;
     text-align: center;
-    font-family: Verdana;
+    font-family: ThreeK;
     color: white;
     width: 96%; 
     margin-right: 0 auto;
@@ -125,13 +145,13 @@ details > summary {
 
 .leftcolumn {
     float: left;
-    width: 67%;
+    width: 50%;
 }
 
 /* Right column */
 .rightcolumn {
     float: left;
-    width: 33%;
+    width: 50%;
 }
 
 /* Clear floats after the columns */
@@ -145,16 +165,16 @@ details > summary {
 }
 /* Blog */
 .block2 {
-    border: 1px solid beige;
+    border: 1px solid #EEEEFF;
     width: 70%;
     margin: 15%;
     margin-top: 25px;
     margin-bottom: 25px;
     border-radius: 4px;
     text-align: center;
-    color: black;
+    color: white;
     font-family: ThreeK;
-    background-color: #BEEACC;
+    background-color: #443333;
     /* height: 650px; */
     /* box-shadow: 3px 3px 5px 5px black; */
 }
@@ -183,7 +203,7 @@ details > summary {
     margin-bottom:0px;
     border-radius: 10px;
     text-align: center;
-    font-family: Verdana;  
+    font-family: ThreeK;  
     font-size: 30px;  
     color: white;
     background-color: #4c4c4c;
@@ -210,7 +230,7 @@ details > summary {
     margin-bottom: 10px;
     /* border-radius: 10px; */
     text-align: left;
-    font-family: Verdana;  
+    font-family: ThreeK;  
     font-size: 30px; 
 }
 
