@@ -4,11 +4,12 @@
 } 
 
 body {
-    background-image: url(Pictures/view.png);
+    background-image: url(pictures/view.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color: white;
+    font-family: ThreeK;
     /* background-size: cover; */
 }
 
@@ -193,6 +194,19 @@ details > summary {
 }
 
 
+/* My Stuff */
+
+.block3 {
+    border: 1px solid #EEEEFF;
+    width: 96%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+    font-family: ThreeK;
+    background-color: #443333;
+}
 
 /* Projects */
 .dropdown {
