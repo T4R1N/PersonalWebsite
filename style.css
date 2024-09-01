@@ -4,7 +4,7 @@
 } 
 
 body {
-    background-image: url(pictures/view.png);
+    background-image: url(media/pictures/view.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -15,6 +15,10 @@ body {
 
 a {
     color: #B0B0FF;
+}
+
+footer {
+    text-align: center;
 }
 
 /* The navbar container */
@@ -70,11 +74,6 @@ a {
     margin: 0 auto;
     border-radius: 0px 0px 10px 10px; /* top-left, top-right, bottom-right, bottom-left */
     margin-bottom: 33px;
-    font-family: ThreeK;
-}
-
-.header h1 {
-    color: white;
     font-family: ThreeK;
 }
 
