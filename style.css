@@ -91,7 +91,7 @@ footer {
 }
 
 .block {
-    border: 1px solid #d6efdb;
+    /*border: 1px solid #d6efdb;*/
     border-radius: 8px;
     text-align: center;
     font-family: ThreeK;
@@ -124,14 +124,15 @@ details > summary {
     padding-bottom: 10px;
 }
 
-.block sup {
+.block sup{
     padding-top: 10px;
     padding-bottom: 10px;
     font-size: large;
 }
 
 .block1 {
-    border: 1px solid #1a1a1a;
+    /*border: 1px solid #1a1a1a; */
+    /*border: 1px solid #d6efdb; */
     background-color: #777783a3;
     border-radius: 10px;
     text-align: center;
