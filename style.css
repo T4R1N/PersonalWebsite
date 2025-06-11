@@ -5,6 +5,7 @@
 
 body {
     background-image: url(media/pictures/view2.webp);
+    /* background-color: #0D1B1E;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -41,7 +42,7 @@ footer {
     text-align: center;
     padding: 7px 8px;
     text-decoration: none;
-    font-family: Verdana;
+    font-family: ThreeK;
 }
 
 /* Links - change color on hover */
@@ -91,8 +92,8 @@ footer {
 }
 
 .block {
-    /*border: 1px solid #d6efdb;*/
-    border-radius: 8px;
+    border: 1px solid #0D1B1E;
+    /*border-radius: 8px;*/
     text-align: center;
     font-family: ThreeK;
     font-size: larger;
@@ -132,9 +133,9 @@ details > summary {
 
 .block1 {
     /*border: 1px solid #1a1a1a; */
-    /*border: 1px solid #d6efdb; */
+    border: 1px solid #0D1B1E; 
     background-color: #777783a3;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     text-align: center;
     font-size: larger;
     font-family: ThreeK;
@@ -175,7 +176,7 @@ details > summary {
     margin: 15%;
     margin-top: 25px;
     margin-bottom: 25px;
-    border-radius: 4px;
+    /*border-radius: 4px;*/
     text-align: center;
     color: white;
     font-family: ThreeK;
@@ -205,7 +206,7 @@ details > summary {
     width: 96%;
     margin-top: 25px;
     margin-bottom: 25px;
-    border-radius: 4px;
+    /*border-radius: 4px;*/
     text-align: center;
     color: white;
     font-family: ThreeK;
@@ -219,7 +220,7 @@ details > summary {
     margin: 15%;
     margin-top: 50px;
     margin-bottom:0px;
-    border-radius: 10px;
+    /*border-radius: 10px;*/
     text-align: center;
     font-family: ThreeK;  
     font-size: 30px;  
