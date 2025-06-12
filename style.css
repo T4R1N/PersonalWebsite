@@ -71,11 +71,12 @@ footer {
     background-color: #777783c5;
     text-align: center;
     /* padding: 40px; */
+    border: 1px solid #0D1B1E;
     height: 100px;
     padding-top: 20px;
     width: 70%;
     margin: 0 auto;
-    border-radius: 0px 0px 10px 10px; /* top-left, top-right, bottom-right, bottom-left */
+    /*border-radius: 0px 0px 10px 10px;*/ /* top-left, top-right, bottom-right, bottom-left */
     margin-bottom: 33px;
     font-family: ThreeK;
 }
@@ -210,7 +211,7 @@ details > summary {
     text-align: center;
     color: white;
     font-family: ThreeK;
-    background-color: #443333;
+    background-color: #44333384;
 }
 
 /* Projects */
