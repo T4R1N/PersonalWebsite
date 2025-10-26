@@ -114,6 +114,10 @@ details > summary {
     /*display: none;*/
   }
 
+.block a:hover {
+    border: 1px solid #FFFFFF;
+}
+
 .block h1 {
     font-size: larger;
     color:aqua;
